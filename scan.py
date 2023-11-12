@@ -15,7 +15,7 @@ if (lengthCheck == 4):
     except socket.gaierror:
         print("\nHost couldn't be resolved.")
 else:
-    print("\nInvalid arguments.\nSyntax: python3 scan.py <ip> <first_ip> <last_ip>\n")  # instructions for potatoes
+    print("\nInvalid arguments.\nSyntax: python3 pps.py <ip> <first_ip> <last_ip>\n")  # instructions for potatoes
     sys.exit()
 
 # converting argv's by default string type items to integer to use with range()
